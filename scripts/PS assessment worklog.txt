@@ -1,0 +1,61 @@
+PS assessment worklog--
+2020-01-09--
+Files edited:
+  - "PS assessment_data cleaning.R"
+
+Brief:
+  - attempted to recover more populations, explored data (unintentional)
+  - found out that Escapement and Spawner have descrepancies between spawner data...
+
+Summary:
+  - read Losee et al 2019 and attempted to replicate data analysis
+  - in the process, found that SCoRE was not deficient, but that there is a big discrepancy between spawner and escapement data
+  - emailed Losee to see what they did
+  - pulled out populations that have both escapement and spawner data
+  - identified which systems to focus on and scope of analysis
+  - brainstormed how to filter for systems
+
+Breadcrumbs:
+  - review NPAFC articles from past interns to get an idea of the scope of the data
+  - closely read Losee et al to see how they handled abundance calculations
+  - filter by species and proceed from there. my headings are by species so that should help clarify things
+  - generate at least one (1) plot tomorrow
+
+
+*****************************
+2020-01-08--
+Files edited:
+  - "PS assessment_data cleaning.R"
+
+Brief:
+  - cleaned up data, but back to the drawing board
+
+Summary:
+  - got all the way to step 3, which is where the meat of the issue is. but I was able to separate out Puget Sound and Hood Canal populations of the six focal species, and only use spawner estimates
+  - running into problems with how the data is structured. its not bad, just need to figure out to subset or compile Natural+Hatchery fish, and how to make plots of each system given the variability in data. Some only have wild runs, some have composite counts early on and then separate them out...
+  - back to the drawing board on my data objectives. what rivers should I run? should I focus on ESA listings? or at a regional view?
+
+Breadcrumbs:
+  - append the `esu/dps listings` from the inventory file to the spawner data
+  - review NPAFC articles from past interns to get an idea of the scope of the data
+  - filter by species and proceed from there. my headings are by species so that should help clarify things
+  - generate at least one (1) plot tomorrow
+  - create Github repo
+
+*****************************
+2020-01-06--
+Files created:
+  - "PS assessment_data cleaning.R"
+  - "data cleaning workflow.R"
+  - data folder from SOS
+
+Brief:
+  - typed up workflow and drafted cleaning functions
+
+Summary:
+  - examined SOS salmon files and brainstormed the workflow for data cleaning
+  - starting drafting in tidyverse - playing around with using a vector of strings to filter out data - will have to see if it works!
+
+Breadcrumbs:
+  - try running the script
+  - follow up with the Salmon Recovery Board on 2019 and 2020 data
