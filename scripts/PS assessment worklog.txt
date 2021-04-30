@@ -1,11 +1,47 @@
 PS assessment worklog--
+2020-01-30--
+Files created:
+  - Chinookhatcheryplots.R
+  - geomeans_spawners.R
+  - onlyChinook.R
+  - plotNPGO.R
+  - plotNPO.R
+  - lots of imported data
+  - Chinookspawnerorigin_pops.csv
+
+Brief:
+  - um. a lot of stuff has happened.
+
+Summary:
+  - created NPO/NPGO index plots
+  - narrowed down paper to just Chinook salmon and starting to pare down plots and analysis
+    - plotted spawner abundance on bar plots, hatchery proportions with scatter plots
+  - added LH/run timing to the Inventory file
+
+Breadcrumbs:
+  - create geomean function or workflow, at least
+  - parse through Chinookspawnerorigin_pops.csv for specific proportions of hatchery fish for each population
+    - if its unclear (due to composites) - use the figure from the Puget Sound Encyclopedia/NOAA 2007
+
+******************************************
+2020-01-18--
+  - "PS assessment_data cleaning.R"
+  - updated SOS data
+
+Brief:
+  - figured out code for ploting pop trends, with new data
+
+Summary:
+  - used facet_wrap() to plot multiple populations
+  - pulled new data from State of Salmon report and reviewed associated GitHub files
+
 2020-01-09--
 Files edited:
   - "PS assessment_data cleaning.R"
 
 Brief:
   - attempted to recover more populations, explored data (unintentional)
-  - found out that Escapement and Spawner have descrepancies between spawner data...
+  - found out that Escapement and Spawner have discrepancies between spawner data...
 
 Summary:
   - read Losee et al 2019 and attempted to replicate data analysis
